@@ -8,9 +8,10 @@ public class Person {
     private String phone;
 
     Person (){
-
+        super();
     }
     public Person (String name, String age, String gender){
+        super();
         this.name = name;
         this.age = age;
         this.gender = gender;
