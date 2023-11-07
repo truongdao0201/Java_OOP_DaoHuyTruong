@@ -8,10 +8,9 @@ public class Person {
     private String phone;
 
     Person (){
-        super();
+
     }
     public Person (String name, String age, String gender){
-        super();
         this.name = name;
         this.age = age;
         this.gender = gender;
@@ -24,15 +23,15 @@ public class Person {
         this.phone = "0395891177";
     }
     protected void showInfor (){
-        System.out.println("Họ tên: " + this.name);
-        System.out.println("Tuổi: " + this.age);
-        System.out.println("Giới tính: " + this.gender);
-        System.out.println("Địa chỉ: " + this.address);
-        System.out.println("SĐt: " + this.phone);
+        System.out.println("Họ tên: " + name);
+        System.out.println("Tuổi: " + age);
+        System.out.println("Giới tính: " + gender);
+        System.out.println("Địa chỉ: " + address);
+        System.out.println("SĐt: " + phone);
     }
     public void showCompany (){
-        System.out.println("Họ tên: " + this.name);
-        System.out.println("Tuổi: " + this.age);
-        System.out.println("Giới tính: " + this.gender);
+        System.out.println("Họ tên: " + name);
+        System.out.println("Tuổi: " + age);
+        System.out.println("Giới tính: " + gender);
     }
 }
